@@ -1,5 +1,8 @@
 # Motivation Emails Service
 A Windows service that sends a motivational email to a user. The service can be scheduled using Task Scheduler.
+# Configure The Service:
+1. Open the app.config file.
+2. Configure the receiver, sender, emails, the server, and its appropriate information.
 # Build Instructions (Release Mode):
 1. Save the source code.
 2. Build the solution (ctrl + shift + b) in release mode.
@@ -19,3 +22,5 @@ A Windows service that sends a motivational email to a user. The service can be 
 2. Use this command: sc stop MotivationEmailsService
 # Uninstallation (Using Batch File):
 1. Open the UnistallScript file with the command prompt in administrator mode.
+### Schedule The Service
+You can use the Task Scheduler to schedule this service.
