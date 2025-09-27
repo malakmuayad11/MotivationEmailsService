@@ -22,5 +22,5 @@ A Windows service that sends a motivational email to a user. The service can be 
 2. Use this command: sc stop MotivationEmailsService
 # Uninstallation (Using Batch File):
 1. Open the UnistallScript file with the command prompt in administrator mode.
-### Schedule The Service
+# Schedule The Service
 You can use the Task Scheduler to schedule this service.
